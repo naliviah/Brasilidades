@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasilidades</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="img/logo.png">
+</head>
+
+<body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <fieldset>
+        <hr><br>
+        <div class="divi" style="display: flex;">
+            <img class="Imagem" src="img/icon.png.png" width="150">
+
+            <div><a href="index.html.html">Home</a></div>
+            <div><a href="">Contato</a></div>
+            <div><a href="">Locais</a></div>
+            <div><a href="brasilidades.html">Sobre nós</a></div>
+            
+        </div>
+        <br>
+        <hr>
+
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <label>Insira seu nome:</label>
+        <br>
+        <input type="text" name="one" required placeholder= "Informe seu nome" required>
+        <br>
+        <label>Insira seu CPF:</label>
+        <br>
+        <input type="text" name="two" required placeholder= "Informe seu CPF" required maxlength="11">
+        <br>
+        <label>Insira seu email:</label>
+        <br>
+        <input type="email" name="three" required placeholder= "Informe seu email" required>
+        <br>
+        <label>Insira o assunto</label>
+        <br>
+        <input type="text" name="four" required placeholder= "Informe o assunto" required >
+        <br>
+<label>Mensagem:</label><br>
+<textarea id="comentario" name="five" rows="4" cols="50" placeholder="Digite sua mensagem aqui"></textarea><br>
+
+<br>
+        <button type="submit">Enviar</button>
+        <button type="clear">Limpar</button>
+
+        <footer>
+            <p>&copy; 2024 Paraty - Todos os direitos reservados.</p>
+            <nav>
+                <a href="#sobre">Sobre</a> |
+                <a href="#contato">Contato</a>
+            </nav>
+        </footer>
+    </fieldset>
+</body>
+
+</html>
